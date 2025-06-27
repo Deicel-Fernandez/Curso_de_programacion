@@ -36,10 +36,26 @@ mi_diccionario["Yuliexy Dimas"] = 20
 print(f"Diccionario original modificado: {mi_diccionario}")
 
 for clave in mi_diccionario:
-    print(f"Nombre: {clave}, Nota: {mi_diccionario[clave]}")
+    print(f"Nombre: {clave}, Edad: {mi_diccionario[clave]}")
 
 for valor2 in mi_diccionario.values():
-    print("Nota:", valor2)
+    print("Edad:", valor2)
 ########################################################################
 mi_conjunto = {1,2,3,4,5}
-print("Conjunto original:",mi_conjunto)
+print("Conjunto original:", mi_conjunto)
+
+
+########################################################################
+
+def saludar(nombre):
+    """Funcion para saludar"""
+    print(f"¡Hola, {nombre}!")
+
+
+def calcular_area_circulo(radio):
+    """Función que calcula el área de un círculo."""
+    import math  # Importa el módulo math para usar la constante pi
+    return math.pi * (radio ** 2)  # Calcula el área usando la fórmula π * r^2
+
+radio2 = (calcular_area_circulo(2))
+print(f"El area del circulo es : {radio2: .2f}")
