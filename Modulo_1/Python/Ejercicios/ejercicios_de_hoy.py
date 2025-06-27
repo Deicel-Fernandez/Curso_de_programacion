@@ -1,1 +1,19 @@
-print("Hola gente")
+mi_diccionario = {
+    "Deicel Fernandez": 30,
+    "Daniel Espitia": 25,
+    "Arianyelina Rincon": 15,
+    "Brian Mendez": 10,
+    "Carlos Villero": 18,
+    "Damian Garcia": 13,
+    "Elias Rivas": 18,
+    "Fabian Cardenas": 17,
+    "Franklin Vecino": 17,
+    "Helyanni Rodriguez": 16,
+    "Liliana Rincon": 14,
+    "Maria Macias": 16,
+    "Over Machado": 16,
+    "Paul Moran": 14,
+    "Ronald Trujillo": 12,
+    "Yuliexy Dimas": 10
+}
+print(f"Diccionario original: {mi_diccionario}")
