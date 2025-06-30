@@ -1,3 +1,24 @@
-img {
-    width: 200px;
+.titulo_de_la_pagina {
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    color: beige
+}
+
+.contenedor{
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    color: #25283D
+    border: solid #25283D
+    boder-color:
+    border-radius:
+    padding:
+    margin:
+
+}
+
+.foto {
+    border-radius: 10px;
+    max-width: 200px;
 }

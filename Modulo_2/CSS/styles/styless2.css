@@ -1,0 +1,32 @@
+.titulo_de_la_pagina2{
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1000;
+    color: #A71D31
+
+}
+
+.foto1{
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0%;
+}
+
+.contenido {
+    font-size: 17px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 5;
+    color: #A71D31
+}
+
+.titulos {
+    font-size: 17px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 5;
+    color: #A71D31
+}
+.foto2{
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0%;
+}
