@@ -1,8 +1,11 @@
+body{
+    background-color: #F1F0CC;
+}
 .titulo_de_la_pagina2{
     font-size: 100px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 1000;
-    color: #A71D31
+    color: #780000
 
 }
 
@@ -16,14 +19,14 @@
     font-size: 17px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 5;
-    color: #A71D31
+    color: #780000
 }
 
 .titulos {
     font-size: 17px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 5;
-    color: #A71D31
+    color: #780000
 }
 .foto2{
     border-radius: 10px;
