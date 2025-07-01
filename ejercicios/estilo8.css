@@ -10,7 +10,7 @@ header{
     margin: 0 auto 0.5rem auto;
 }
 main{
-    background-color: rgb(187, 184, 184);
+    background-color: rgb(153, 152, 152);
     border: solid 1px white;
     box-shadow: rgb(0, 0, 0) 10px;
     border-radius: 10px;
@@ -21,7 +21,7 @@ main{
     margin: 0 auto 0.5rem auto;
 }
 footer{
-    background-color: rgb(187, 184, 184);
+    background-color: rgb(117, 117, 117);
     border: solid 1px white;
     box-shadow: rgb(0, 0, 0) 10px;
     border-radius: 10px;
