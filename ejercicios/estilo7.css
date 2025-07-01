@@ -1,0 +1,17 @@
+.tarjeta{
+    background-color: gainsboro;
+    border: solid 1px white;
+    box-shadow: white 1px;
+    border-radius: 10px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    padding: 2rem;
+    margin: 0 auto 1.5rem auto;
+
+}
+img{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto 1.5rem auto;
+}
