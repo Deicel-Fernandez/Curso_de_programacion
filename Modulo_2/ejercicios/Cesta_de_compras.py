@@ -10,7 +10,7 @@ def mostrar_menu():
     print("1. Agregar un nuevo elemento")
     print("2. Mostrar el contenido de la cesta de la compra")
     print("3. Eliminar un elemento")
-    print("4. Calcular el total")
+    print("4. Calcular el precio total")
     print("5. Renunciar (salir)")
     opcion = input("Elige una opción (1-5): ")
     return opcion
@@ -60,7 +60,7 @@ while True:
     elif opcion == '4':
         calcular_total()
     elif opcion == '5':
-        print("Gracias por usar el programa.")
+        print('Gracias por comprar en "Supermarket Deicel, C.A".')
         break
     else:
         print("Opción no válida. Intenta de nuevo.")
