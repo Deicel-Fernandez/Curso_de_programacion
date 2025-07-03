@@ -1,6 +1,6 @@
 print("Hola")
 
-#Imprimir una sumaaa
+#Imprimir una sumaaaa
 a = 10
 b = 20
 suma = a + b
