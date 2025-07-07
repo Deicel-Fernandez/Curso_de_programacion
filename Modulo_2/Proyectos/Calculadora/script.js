@@ -30,12 +30,12 @@ botones.forEach(boton => {
 
         if(boton.id === "cos") {
             try {
-                matchMedia.cos()
+                
             } catch {
                 pantalla.textContent = "ERROR!";
             }
             return;
-            }
+        }
 
         if(pantalla.textContent === "0" || pantalla.textContent === "ERROR!") {
             pantalla.textContent = botonApretado;
