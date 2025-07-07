@@ -33,6 +33,8 @@ botones.forEach(boton => {
         } else {
             pantalla.textContent += botonApretado;
         }
+
+        
     })
 })
 
