@@ -10,8 +10,8 @@ botones.forEach(boton => {
             return;
         }
 
-        if (boton.id === "borrar") {
-            if (pantalla.textContent.length === 1 || pantalla.textContent === "ERROR!") {
+        if(boton.id === "borrar") {
+             if (pantalla.textContent.length === 1 || pantalla.textContent === "ERROR!") {
                 pantalla.textContent = "0";
             } else {
                 pantalla.textContent = pantalla.textContent.slice(0, -1);
@@ -19,7 +19,7 @@ botones.forEach(boton => {
             return;
         }
 
-        if (boton.id === "igual") {
+        if(boton.id === "igual") {
             try {
                 pantalla.textContent = eval(pantalla.textContent);
             } catch {
@@ -28,13 +28,21 @@ botones.forEach(boton => {
             return;
         }
 
+        if(boton.id === "cos") {
+            try {
+                matchMedia.cos()
+            } catch {
+                pantalla.textContent = "ERROR!";
+            }
+            return;
+            }
+
         if(pantalla.textContent === "0" || pantalla.textContent === "ERROR!") {
             pantalla.textContent = botonApretado;
         } else {
             pantalla.textContent += botonApretado;
         }
 
-        
     })
 })
 
