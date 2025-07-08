@@ -18,25 +18,40 @@ botones.forEach(boton => {
             }
             return;
         }
-
+        
+        if (boton.id === "cos") {
+            let rad = eval(pantalla.textContent) * Math.PI / 180;
+            pantalla.textContent = Math.cos(rad).toFixed(9);
+            return;
+        }
+        
+        if (boton.id === "tan") {
+            let rad = eval(pantalla.textContent) * Math.PI / 180;
+            pantalla.textContent = Math.tan(rad).toFixed(9);
+            return;
+        }
+        
+        if (boton.id === "potencia") {
+            pantalla.textContent += "^";
+            return;
+        }
+        
+        if (boton.id === "raíz") {
+            pantalla.textContent = Math.sqrt(eval(pantalla.textContent)).toFixed(9);
+            return;
+        }
+        
         if(boton.id === "igual") {
             try {
-                pantalla.textContent = eval(pantalla.textContent);
+                let expresion = pantalla.textContent.replace(/\^/g, "**");
+                pantalla.textContent = eval(expresion);
             } catch {
                 pantalla.textContent = "ERROR!";
             }
             return;
         }
-
-        if(boton.id === "cos") {
-            try {
-                
-            } catch {
-                pantalla.textContent = "ERROR!";
-            }
-            return;
-        }
-
+        
+        
         if(pantalla.textContent === "0" || pantalla.textContent === "ERROR!") {
             pantalla.textContent = botonApretado;
         } else {
@@ -45,4 +60,3 @@ botones.forEach(boton => {
 
     })
 })
-

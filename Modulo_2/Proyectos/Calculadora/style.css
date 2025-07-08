@@ -69,3 +69,8 @@ body {
 #borrar:hover  {
     background-color:  #e8031a;
 }
+
+.marcadeagua {
+    place-content: flex-end;
+    width: 100px
+}
