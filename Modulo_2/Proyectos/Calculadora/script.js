@@ -36,8 +36,8 @@ botones.forEach(boton => {
             return;
         }
         
-        if (boton.id === "raíz") {
-            pantalla.textContent = Math.sqrt(eval(pantalla.textContent)).toFixed(9);
+        if (boton.id === "raiz") {
+            pantalla.textContent = Math.sqrt(eval(pantalla.textContent)).toFixed(6);
             return;
         }
         
