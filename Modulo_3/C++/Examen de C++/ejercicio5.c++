@@ -11,16 +11,16 @@ int main() {
     int intentoUsuario;
 
     std::cout << "¿Listo para jugar?" << std::endl;
-    std::cout << "Estoy pensando en un número entre 1 y 100. ¡Adivinalo!" << std::endl;
+    std::cout << "Estoy pensando en un número entre 1 y 100. Adivinalo pues" << std::endl;
 
     while (intentoUsuario != numeroSecreto) {
         std::cout << "Ingresa tu número: ";
         std::cin >> intentoUsuario;
-
+        
         if (intentoUsuario < numeroSecreto) {
-            std::cout << "Te pasaste" << std::endl;
+            std::cout << "Sube más tu numero" << std::endl;
         } else if (intentoUsuario > numeroSecreto) {
-            std::cout << "Sube más tu numero" << std.endl;
+            std::cout << "Te pasaste" << std::endl;
         }
     }
 
